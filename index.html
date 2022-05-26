@@ -17,115 +17,102 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="search-rental-car">
-        <h1>Search for a rental car</h1>
-        <h6>Pick up location</h6>
-        <input type="text" name="" id="" placeholder="City, airport, region, district...">
+
+
+<div class="search-rental-car">
+    <h1>Search for a rental car</h1>
+    <h6>Pick up location</h6>
+    <input type="text" name="" id="" placeholder="City, airport, region, district...">
+    
+    <div class="check-box">
+        <input type="checkbox" id="deliver">
+        <label for="deliver">Deliver the car somewhere else </label>
+    </div>
         
-        <div class="check-box">
-            <input type="checkbox" id="deliver">
-            <label for="deliver">Deliver the car somewhere else </label>
-        </div>
+    <div class="rental-date">
+        <div class="date-of-pick">
+            <p>Date of pickup</p>
+            <input type="text" name="" value="Sat 26 Mar 2022" id="">
+            <div class="rent-date">
+                <span>
+                    <select name="" class="hours">
+                        <option value="01">01</option>
+                        <option value="02">02</option>
+                        <option value="03">03</option>
+                        <option value="04">04</option>
+                        <option value="05">05</option>
+                        <option value="06">06</option>
+                        <option value="07">07</option>
+                        <option value="08">08</option>
+                        <option value="09">09</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                </span>
 
-        <div class="rent-date">
-
-            <div class="pickup">
-                <p>Date of pickup</p>
-                <input type="text" name="" value="Sat 26 Mar 2022" id="">
-                
-                <div>
-                    <span>
-                        <select name="" class="hours">
-                            <option value="01">01</option>
-                            <option value="02">02</option>
-                            <option value="03">03</option>
-                            <option value="04">04</option>
-                            <option value="05">05</option>
-                            <option value="06">06</option>
-                            <option value="07">07</option>
-                            <option value="08">08</option>
-                            <option value="09">09</option>
-                            <option value="10">10</option>
-                            <option value="11">11</option>
-                            <option value="12">12</option>                      
-                        </select>
-                    </span>
-
-                    <span>
-                        <select name="" class="secont">
-                            <option value="01">00</option>
-                            <option value="02">02</option>
-                            <option value="03">03</option>
-                            <option value="04">04</option>
-                            <option value="05">05</option>
-                            <option value="06">06</option>
-                            <option value="07">07</option>
-                            <option value="08">08</option>
-                            <option value="09">09</option>
-                            <option value="10">10</option>
-                            <option value="11">.</option>
-                            <option value="12">.</option>                      
-                        </select>
-                    </span>
-                </div>
-                            
+                <span>
+                    <select name="" class="secont">
+                        <option value="0">00</option>
+                        <option value="10">10</option>
+                        <option value="20">20</option>
+                        <option value="30">30</option>
+                        <option value="40">40</option>
+                        <option value="50">50</option>
+                    </select>
+                </span>
             </div>
 
-             <div class="deliver" >
-                <p>Date of delivery</p>
-                <input type="text" name="" value="Tue 29 Mar 2022" id="">
-                <div>
-                    <span>
-                        <select name="" class="hours">
-                            <option value="01">01</option>
-                            <option value="02">02</option>
-                            <option value="03">03</option>
-                            <option value="04">04</option>
-                            <option value="05">05</option>
-                            <option value="06">06</option>
-                            <option value="07">07</option>
-                            <option value="08">08</option>
-                            <option value="09">09</option>
-                            <option value="10">10</option>
-                            <option value="11">11</option>
-                            <option value="12">12</option>                      
-                        </select>
-                    </span>
-
-                    <span>
-                        <select name="" class="secont">
-                            <option value="01">00</option>
-                            <option value="02">02</option>
-                            <option value="03">03</option>
-                            <option value="04">04</option>
-                            <option value="05">05</option>
-                            <option value="06">06</option>
-                            <option value="07">07</option>
-                            <option value="08">08</option>
-                            <option value="09">09</option>
-                            <option value="10">10</option>
-                            <option value="11">.</option>
-                            <option value="12">.</option>                      
-                        </select>
-                    </span>
-                </div>
-
-            </div>
         </div>
 
-        <div>
+        <div class="date-of-delivery">
+            <p>Date of delivery</p>
+            <input type="text" name="" value="Tue 29 Mar 2022" id="">
+            <span>
+                <select name="" class="hours">
+                    <option value="01">01</option>
+                    <option value="02">02</option>
+                    <option value="03">03</option>
+                    <option value="04">04</option>
+                    <option value="05">05</option>
+                    <option value="06">06</option>
+                    <option value="07">07</option>
+                    <option value="08">08</option>
+                    <option value="09">09</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>                      
+                </select>
+            </span>
+
+            <span>
+                <select name="" class="secont">
+                    <option value="0">00</option>
+                    <option value="10">10</option>
+                    <option value="20">20</option>
+                    <option value="30">30</option>
+                    <option value="40">40</option>
+                    <option value="50">50</option>
+                </select>
+            </span>
+        </div>
+    </div>
+    <div class="age">
+        <div class="check">
             <input type="checkbox" id="age">
             <label for="age">The driver’s age between 30 and 65?</label>
-        </div>
+            <img src="/unlem.svg" alt="">         
+        </div>   
+    </div> 
 
+    <ul class="menu">
         <li>No credit card fees</li>
         <li>No change fees</li>
         <li>Price match guarantee</li>
-
-        <button type="submit" class="apply">Apply</button>
-
-    </div>
+    </ul>
     
+    <button type="submit" class="apply">Search</button>
 
+</div>
 </body>
 </html>
